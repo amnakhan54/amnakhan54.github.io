@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Amna Khan - Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 0 15px;
+      background: #f9f9f9;
+      color: #333;
+      position: relative;
+      overflow-x: hidden;
+    }
+    /* Background shapes */
+    body::before, body::after {
+      content: "";
+      position: fixed;
+      border-radius: 50%;
+      opacity: 0.1;
+      z-index: -1;
+    }
+    body::before {
+      width: 200px;
+      height: 200px;
+      background: #007acc;
+      top: -50px;
+      left: -50px;
+    }
+    body::after {
+      width: 300px;
+      height: 300px;
+      background: #00aaff;
+      bottom: -100px;
+      right: -100px;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    header h1 {
+      margin-bottom: 5px;
+    }
+       h2 {
+      border-bottom: 2px solid #007acc;
+      padding-bottom: 5px;
+      color: #007acc;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+    li {
+      background: #e1f0ff;
+      margin: 8px 0;
+      padding: 8px 12px;
+      border-radius: 4px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-weight: 600;
+    }
+    a {
+      color: #007acc;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .project {
+      background: #fff;
+      padding: 15px;
+      border-radius: 6px;
+      box-shadow: 0 0 6px rgba(0,0,0,0.1);
+      margin-bottom: 15px;
+    }
+    /* Icon styles */
+    svg.icon {
+      width: 20px;
+      height: 20px;
+      fill: #007acc;
+      flex-shrink: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+   
+    <h1>Amna Khan</h1>
+    <p>
+      Hi, I'm Amna, a recent computer science graduate with a strong interest in full-stack development.
+      I’m passionate about building complete web applications and excited to gain practical experience through internships.
+    </p>
+  </header>
+
+  <section>
+    <h2>
+      <!-- Skills icon -->
+      <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2L15 8l6 1-4.5 4.4.9 6L12 17l-5.4 3 1-6-4.6-4 6-.9z"/></svg>
+      Skills
+    </h2>
+    <ul>
+      <li>
+        <!-- HTML Icon -->
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M1.5 0h21l-1.91 21.5-8.5 2.5-8.5-2.5L1.5 0z"/></svg>
+        HTML
+      </li>
+      <li>
+        <!-- CSS Icon -->
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M1.5 0h21l-1.91 21.5-8.5 2.5-8.5-2.5L1.5 0z"/></svg>
+        CSS
+      </li>
+      <li>
+        <!-- Code Icon for C# -->
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 4h18v16H3z"/></svg>
+        C# (Basics)
+      </li>
+      <li>
+        <!-- Database icon -->
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><ellipse cx="12" cy="6" rx="10" ry="3"/><path d="M2 6v12c0 1.657 4.477 3 10 3s10-1.343 10-3V6"/></svg>
+        MySQL
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>
+      <!-- Projects icon -->
+      <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 13h18v-2H3v2z"/></svg>
+      Projects
+    </h2>
+    <div class="project">
+      <h3>Food Delivery Website</h3>
+      <p>A fully functional website for food delivery, allowing users to browse menus, place orders, and track delivery status.</p>
+      <p><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+    </div>
+    <div class="project">
+      <h3>QR Code Generator and Scanner (Flutter)</h3>
+      <p>A mobile app built with Flutter to generate and scan QR codes efficiently.</p>
+      <p><strong>Tech:</strong> Flutter, Dart</p>
+    </div>
+   
+  </section>
+
+  <section>
+    <h2>
+      <!-- Contact icon -->
+      <svg class="icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 8v8a3 3 0 01-3 3H6a3 3 0 01-3-3V8"/><path d="M3 8l9 6 9-6"/></svg>
+      Contact
+    </h2>
+    <p>Email: <a href="mailto:your.email@example.com">amnaabk1234@gmail.com</a></p>
+    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">https://github.com/amnakhan54</a></p>
+  </section>
+</body>
+</html>
